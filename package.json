@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/rifai716/webhook-nodejs/issues"
   },
-  "homepage": "https://github.com/rifai716/webhook-nodejs#readme"
+  "homepage": "https://github.com/rifai716/webhook-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
 }
