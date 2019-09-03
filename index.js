@@ -8,6 +8,12 @@ const url = 'https://api.telegram.org/bot';
 const apiToken = '879556798:AAGB0Yb2OMCHTaQ7rbNOZW4OTusqRh6NmNQ';
 // Configurations
 app.use(bodyParser.json());
+
+
+app.get('/', (req, res) => {
+	res.send({ hello: 'world' });
+});
+
 // Endpoints
 app.post('/', (req, res) => {
      // console.log(req.body);
