@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
      const chatId = req.body.message.chat.id;
      const sentMessage = req.body.message.text;
      // Regex for hello
-     if (sentMessage.match(/hello/gi)) {
+     if (sentMessage != '') {
           axios.post(`${url}${apiToken}/sendMessage`,
                {
                     chat_id: chatId,
