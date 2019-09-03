@@ -1,0 +1,23 @@
+{
+  "name": "cardinal",
+  "version": "1.0.0",
+  "description": "cardinal assistant bot telegram webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifai716/webhook-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webhook"
+  ],
+  "author": "Ahmad Rifa'i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifai716/webhook-nodejs/issues"
+  },
+  "homepage": "https://github.com/rifai716/webhook-nodejs#readme"
+}
